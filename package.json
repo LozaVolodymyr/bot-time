@@ -1,0 +1,19 @@
+{
+  "name": "bot-time",
+  "version": "1.0.0",
+  "description": "microservices for slack-bot-main",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node bin/run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "moment": "^2.18.1",
+    "superagent": "^3.5.2"
+  }
+}
